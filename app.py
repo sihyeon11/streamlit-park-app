@@ -3,8 +3,8 @@ import numpy as np
 import streamlit as st
 from PIL import Image
 
-df = pd.read_csv('공원 클러스터링.csv')
-place =pd.read_csv('공원 위도 경도.csv')
+df = pd.read_csv('공원_클러스터링.csv')
+place =pd.read_csv('공원_위도_경도.csv')
 #PIL 패키지에 이미지 모듈을 통해 이미지 열기 
 # Image.open('이미지 경로')
 
